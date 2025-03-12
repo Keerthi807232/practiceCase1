@@ -17,13 +17,13 @@ public class Calculation{
     }
     public static void main(String args[]){
         Calculation obj=new Calculation();
-        int result=obj.add(120,359);
-        System.out.println(result);
-        int output=obj.sub(200,45);
-        System.out.println(output);
-        int answer=obj.multiple(20,3);
-        System.out.println(answer);
-        int resul=obj.division(21,3);
-        System.out.println(resul);
+        int a=obj.add(120,359);
+        System.out.println(a);
+        int b=obj.sub(200,45);
+        System.out.println(b);
+        int c=obj.multiple(20,3);
+        System.out.println(c);
+        int d=obj.division(21,3);
+        System.out.println(d);
     }
 }
