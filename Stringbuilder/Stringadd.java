@@ -1,13 +1,14 @@
 public class Stringadd{
-    public String add(String a,String b){
-        String z=a+b;
+    public String add(String a,String b,String c){
+        String z=a+b+c;
         return z;
     }
     public static void main(String args[]){
         String a="Hello";
-        String b="Programmer";
+        String b=" ";
+        String c="Programmer";
         Stringadd obj=new Stringadd();
-        String result=obj.add(a,b);
+        String result=obj.add(a,b,c);
         System.out.println(result);
     }
 }
