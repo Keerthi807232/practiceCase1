@@ -3,9 +3,9 @@ public class Tcase1{
     public static void main(String args[]){
         int i=0;
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter times of process:");
-        int n=sc.nextInt();
-        while(i<n){
+        //System.out.println("Enter times of process:");
+        //int n=sc.nextInt();
+        while(true){
         System.out.println("1.Car\n2.Truck");
         System.out.println("Enter your choice:");
         int choice=sc.nextInt();
