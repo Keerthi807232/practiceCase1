@@ -19,7 +19,7 @@ class Manager extends Employee{
 class Developer extends Employee{
     void dsalary(){
     int baseSalary=calculateSalary();
-    double c=baseSalary*0.2;
+    double c=baseSalary*0.1;
     double d=baseSalary+c;
     System.out.println("Generated Salary:"+d);     
     }
